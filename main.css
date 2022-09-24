@@ -1,5 +1,6 @@
 body {
-    
+  background: radial-gradient(#282f99, #080617);
+  background: radial-gradient(var(#282f99), var(#080617));
   background-image: url(https://s03.s3c.es/imag/_v0/1498x1067/4/0/b/globalizacion-mundo-oscuro.jpg);
   color: #b6bff3;
   color: var(#282f99);
