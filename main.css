@@ -1,23 +1,20 @@
-
 body {
-    background: radial-gradient(#282f99,#080617);
-    background: radial-gradient(var(#282f99),var(#080617));
-    color: #b6bff3;
-    color: var(#282f99);
-   
-
-   
+  background: radial-gradient(#282f99, #080617);
+  background: radial-gradient(var(#282f99), var(#080617));
+  background-image: https://s03.s3c.es/imag/_v0/1498x1067/4/0/b/globalizacion-mundo-oscuro.jpg;
+  color: #b6bff3;
+  color: var(#282f99);
 }
 
-h1{
-    color: #00ffc8;
-    color: #51e4dd;
-    font-size: 4rem;
-    font-weight: 400;
-    font: Space Mono;
+h1 {
+  color: #00ffc8;
+  color: #51e4dd;
+  font-size: 4rem;
+  font-weight: 400;
+  font: Space Mono;
 }
 
-p{
-    color: rgb(245, 231, 231);
-    font-family:sans-serif;
+p {
+  color: rgb(245, 231, 231);
+  font-family: sans-serif;
 }
