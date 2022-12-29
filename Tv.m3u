@@ -1,0 +1,10 @@
+#EXTM3U
+
+#EXTINF: -1, Azteca Uno
+https://tvazteca-live-cdn-mdstrm-com.akamaized.net/live-stream/609b243156cca108312822a6/publish/media_1500.m3u8?aid=5fea09a071a9945deebf5f7c&pid=ZPNNTlRweq6sCMBuDdWKKoIyUZD92kfR&sid=Ejyx2l6gJlhbLIl4Y8iMYiHObqklbN79&uid=h540kaBKuTseCEghNvDFWv23909Qyglt&es=tvazteca-live-cdn-mdstrm-com.akamaized.net&proto=https&pz=us
+
+
+#EXTINF: -1, Azteca Siete
+https://us-b4-p-e-qg12.cdn.mdstrm.com/live-stream/609ad46a7a441137107d7a81/publish/media_1500.m3u8?aid=5fea09a071a9945deebf5f7c&pid=2kTqnO3meVAHaNhyZcqok4ews9D3qwYl&sid=L0oFdSCtxGym3KXt67PwmZ2PXlXV2bsX&uid=HDQh5ljl2IeufN9GOZdyqjbAS6dULfqn&es=us-b4-p-e-qg12.cdn.mdstrm.com&ote=1672358558846&ot=kEKnL5Gky49hnGWepiWRog&proto=https&pz=us
+
+#EXTINF: -1, 
