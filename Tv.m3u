@@ -3,7 +3,29 @@
 #EXTINF: -1, Azteca Uno
 https://tvazteca-live-cdn-mdstrm-com.akamaized.net/live-stream/609b243156cca108312822a6/publish/media_1500.m3u8?aid=5fea09a071a9945deebf5f7c&pid=ZPNNTlRweq6sCMBuDdWKKoIyUZD92kfR&sid=Ejyx2l6gJlhbLIl4Y8iMYiHObqklbN79&uid=h540kaBKuTseCEghNvDFWv23909Qyglt&es=tvazteca-live-cdn-mdstrm-com.akamaized.net&proto=https&pz=us
 
-#EXTINF: -1, 
+#EXTINF: -1, Canal 6
+https://us-b4-p-e-nq15.cdn.mdstrm.com/live-stream-dai/57b4dbf5dbbfc8f16bb63ce1/56a3e60cbd7f4933b1c97937668b884d/f624fec49dadc88894ebeff1d974eab019af7757/media.m3u8?aid=579bd29dc99290cf08362c3b&pid=rR8k7BJhzGP2OLaUqDONa9r6kzskAw1S&sid=K2FYh8gKh3GZFHqhQttBxcNOWgxcnCkl&uid=uPOjk2OLai011Ayf1sEYXSTm5CHVoGKj&es=us-b5-p-e-wo1.cdn.mdstrm.com&ote=1672370309444&ot=ELvN32tkSSVEJEB-41UpSw&proto=https&pz=us
+
+#EXTINF: -1, Canal Once
+https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
+
+#EXTINF: -1, Milenio
+https://youtu.be/UWNlpWsNS4M
+
+#EXTINF: -1, Excélsior TV
+https://youtu.be/LRqwqd0Gaoc
+
+#EXTINF: -1, FORO TV
+https://channel02-notusa.akamaized.net/hls/live/2023914-b/event01/index.m3u8
+
+#EXTINF: -1, ADN 40
+https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
+
+#EXTINF: -1, Cartoon Network
+https://playout.cdn.cartoonnetwork.com.br/playout_04/playlist.m3u8
+
+#EXTINF: -1, Warner Bros Kids
+https://youtu.be/ijBUrOoAga8
 
 #EXTINF:-1 channel-id="samsung-ESBA1400003LA" tvg-id="ESBA1400003LA" tvg-chno="4175" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA1400003LA_20220713T034526SQUARE.png_20220713034527.png" group-title="Drama",BBC Drama
 https://76b6b6e10c404253ad10f7d502258b94.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-es_BBCDrama/playlist.m3u8?ads.wurl_channel=988&ads.wurl_name=BBCDrama&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
