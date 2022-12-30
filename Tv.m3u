@@ -1,33 +1,33 @@
 #EXTM3U
 
-#EXTINF: -1,Azteca Uno
+#EXTINF: -1 tvg-logo="https://play-lh.googleusercontent.com/hmWXYD8fm76z2BejoCvdfT1GNCSih5FnyE2WVlg-tnR7N4rsLb8-nFiFfhlQ74nrAw",Azteca Uno
 https://tvazteca-live-cdn-mdstrm-com.akamaized.net/live-stream/609b243156cca108312822a6/publish/media_1500.m3u8?aid=5fea09a071a9945deebf5f7c&pid=ZPNNTlRweq6sCMBuDdWKKoIyUZD92kfR&sid=Ejyx2l6gJlhbLIl4Y8iMYiHObqklbN79&uid=h540kaBKuTseCEghNvDFWv23909Qyglt&es=tvazteca-live-cdn-mdstrm-com.akamaized.net&proto=https&pz=us
 
-#EXTINF: -1,Azteca 7
+#EXTINF: -1 tvg-logo="https://scontent.fcun1-1.fna.fbcdn.net/v/t39.30808-6/319897547_874211523775990_8924377718473690828_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=81UdP4u0hUoAX-dCN01&_nc_ht=scontent.fcun1-1.fna&oh=00_AfCyKdVDe3BMm35Cb6s70zTsD6RWvZvLFN0XkOIwIjH4HQ&oe=63B269C5",Azteca 7
 https://dai.google.com/linear/hls/event/YHoOj51dSKCvBQOBG2OvLQ/master.m3u8
 
-#EXTINF: -1,Imagen Television
-https://dai.ly/x82z4if
+#EXTINF: -1 tvg-logo="https://www.grupoempresarialangeles.com/wp-content/uploads/2021/01/logo.jpg",Imagen Television
+https://stream-04.nyc.dailymotion.com/sec(YDiRVmci6dFcTAVfdXnSLhMorVa40B_uprqupi_4N_m2DTnsipnvLamQ5y6OLWK4)/dm/3/x82z4if/d/live-2.m3u8
 
-#EXTINF: -1,Canal 11
+#EXTINF: -1 tvg-logo="https://cdn.mitvstatic.com/channels/mx_xeipn-canal-11_m.png",Canal 11
 https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
 
-#EXTINF: -1,Canal 22
+#EXTINF: -1 tvg-logo="https://canal22.org.mx/img/mxnuestrocine/canal22.png",Canal 22
 https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/chunklist_w1956281136_b1528000_sleng.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjkvMjAyMiA4OjQ2OjU2IFBNJmhhc2hfdmFsdWU9TVYrdmxTOFk3R1VQdXFvME03WVhSdz09JnZhbGlkbWludXRlcz01JmlkPQ%3D%3D
 
-#EXTINF: -1,MX Nuestro Cine
+#EXTINF: -1 tvg-logo="https://www.cinepremiere.com.mx/wp-content/uploads/2022/11/mx-nuestro-cine-donde-ver-canal-cine-mexicano.jpg",MX Nuestro Cine
 https://5fc584f3f19c9.streamlock.net/canal222/smil:canal222.smil/chunklist_w1243262227_b1428000_sleng.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjkvMjAyMiA4OjQ1OjQzIFBNJmhhc2hfdmFsdWU9Q3pOdjVnbHpwMm44bENZUC9wdlZDUT09JnZhbGlkbWludXRlcz01JmlkPQ%3D%3D
 
-#EXTINF: -1,FORO TV
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/Logo-ForoTV-2020.png",FORO TV
 https://channel02-notusa.akamaized.net/hls/live/2023914-b/event01/index.m3u8
 
-#EXTINF: -1,Quiero TV Mexico
-https://stream-02.nyc.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOsP9p0QrsmtYxy7OS1gQLtpT9IuGPaee-Wmo39kWjg3X)/dm/3/x8452uw/s/live-4.m3u8#cell=lnyc
+#EXTINF: -1 tvg-logo="https://quierotv.mx/wp-content/uploads/2021/07/Logo-WEB-e1626917051634.png",Quiero TV Mexico
+https://stream-01.nyc.dailymotion.com/sec(p5KA4QqcEoMI-Au0U41kOsP9p0QrsmtYxy7OS1gQLtpT9IuGPaee-Wmo39kWjg3X)/dm/3/x8452uw/s/live-4.m3u8
 
-#EXTINF: -1,ADN 40
+#EXTINF: -1 tvg-logo="https://scontent.fcun1-1.fna.fbcdn.net/v/t39.30808-6/278021545_1703648610022472_9205882044378832412_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9fxltxJ5mFkAX8am7Z8&tn=Ub2VaihkxZt-0s2f&_nc_ht=scontent.fcun1-1.fna&oh=00_AfDpmbF9c71WqMI_Z5T3fpd1VIz-CdK4nBCsw0MHKN4lig&oe=63B2792A",ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 
-#EXTINF: -1,Cartoon Network
+#EXTINF: -1 tvg-logo="https://static.wikia.nocookie.net/cartoon-network-toon/images/1/1a/CARTOON_NETWORK_logo_%281%29.png/revision/latest?cb=20121126174122&path-prefix=es",Cartoon Network
 https://playout.cdn.cartoonnetwork.com.br/playout_04/playlist.m3u8
 
 #EXTINF:-1 channel-id="samsung-ESBA1400003LA" tvg-id="ESBA1400003LA" tvg-chno="4175" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA1400003LA_20220713T034526SQUARE.png_20220713034527.png" group-title="Drama",BBC Drama
@@ -38,6 +38,18 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-tucineeurope-samsun
 
 #EXTINF:-1 channel-id="samsung-ESAJ4500021HQ" tvg-id="ESAJ4500021HQ" tvg-chno="4229" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500021HQ_20221214T044854SQUARE.png_20221214044855.png" group-title="Factual",Documentales - Rakuten TV
 https://bbfb189d0b5442118b9541714950d36c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_RakutenSpotlight/playlist.m3u8?ads.wurl_channel=430&ads.wurl_name=RakutenSpotlight&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0&ads.consent=%7BTC_STRING%7D
+
+#EXTINF:-1 tvg-id="RakutenTVActionMoviesSpain.es" tvg-logo="https://i.imgur.com/uMcwx2p.jpg" group-title="Movies",Rakuten Action Movies Spain (720p)
+https://rakuten-actionmovies-2-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RakutenTVComedyMoviesSpain.es" tvg-logo="https://i.imgur.com/eQKFgpa.png" group-title="Movies",Rakuten Comedy Movies
+https://rakuten-comedymovies-2-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Rakuten Drama
+https://rakuten-tvshows-2-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Rakuten Family
+https://rakuten-family-2-es.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 channel-id="samsung-ESBC2100002LV" tvg-id="ESBC2100002LV" tvg-chno="4710" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2100002LV_20221012T021026SQUARE.png_20221012021026.png" group-title="Música",Vevo Latino
 https://eu.linear.zype.com/0912f967-726e-42e6-9818-68d4af2b3db2/9c1fe80e-9af9-4e57-b48d-aee073c27e70-samsung-tv/live.m3u8?sitesection_id=vevo_linear%3A_samsungtvplus&sitesection_network_id=516283&sitesection_fallback_id=15346233&device_id=%7BPSID%7D&target_option=%7BTARGETOPT%7D&app_name=%7BAPP_NAME%7D&app_domain=%7BAPP_DOMAIN%7D&TC_STRING=%7BTC_STRING%7D&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
