@@ -1,3 +1,4 @@
 # kevin-alexis.github.io
 
-Mi portafolio 
+Este repositorio contiene los archivos de la pagina web de mi portafolio
+
