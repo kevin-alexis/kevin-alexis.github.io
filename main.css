@@ -1,11 +1,18 @@
 body {
+    height: 100vh;
+    width: 100%;
     margin: 0;
-    background: radial-gradient(#223046,#141d2b);   
+    background: linear-gradient(#1F1F1F,#223046);
     font-family: 'Nunito', sans-serif; 
 }
 
+/* background: radial-gradient(#223046,#141d2b); */
+
 header{
-    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #1F1F1F;   
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid White;
@@ -22,12 +29,20 @@ header{
     color: white;
 }
 
+.menu{
+    display: none;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+
 .nav{
     display: flex;
     align-items: center;
     list-style: none;
     margin: 20px 0;
 }
+
 
 .nav-link {
     display: block;
@@ -44,24 +59,50 @@ header{
 }
 
 main{
+
     padding: 20px;
+}
+
+.profile-photo{
+    width: 200px;
+    border-radius: 10px;
 }
 
 p{   
     color: rgb(245, 231, 231);
 }
 
-.content a{
-    text-decoration: none;
-    color: #fff;
-    padding: 8px 16px;
-    background-color: #0d6efd;
-    border: 1px solid #0d6efd;
-    border-radius: 8px;
-    transition: 1s;
-    
+.projects{
+    display: inline-grid;
+    grid-gap: 10px;
 }
 
-.content a:hover{
-    color: hsl(224, 69%, 82%);
+.btn-projects{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    background-color: #314158;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.btn-projects:hover{
+    background-color: #495361;
+    transform: scale(1.2);
+
+}
+
+@media (max-width: 640px){
+    .home-item,
+    .nav{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+    
 }
