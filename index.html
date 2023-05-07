@@ -13,21 +13,20 @@
     <header class="header">
         <a href="/" class="home-link">
             <p class="home-item">Home</p>
-            <img class="menu" src="./Recursos/icons/icon-menu.svg" alt="menu">
         </a>
 
         <ul class="nav">
             <li class="nav-item">
-                <a href="#" class="nav-link">About Me</a>
+                <a href="#header-about-me" class="nav-link">About Me</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Projects</a>
+                <a href="#header-projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Skills</a>
+                <a href="#header-skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#header-contact" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link active">Download CV</a>
@@ -36,9 +35,11 @@
     </header>
     
     <main class="content">
-        <section>
-            <img src="Recursos/Imagenes/Kvn.png" alt="Foto de perfil" class="profile-photo"/>
-            <p><strong>Hi, my name is Kevin Alexis Bello Maldonado.</strong></p>
+        
+        <section class="aBitOfMe">
+            <h2 id="header-about-me">About Me</h2>
+            <img src="assets/Imagenes/Kvn.png" alt="Foto de perfil" class="profile-photo"/>
+            <h2>Hi, my name is Kevin Alexis Bello Maldonado.</h2>
             <p>
                 I am a Software Engineer Student, and I am passionate about technology,
                 cybersecurity and programming
@@ -46,6 +47,21 @@
         </section>
 
         <section class="projects">
+            <h2 id="header-projects">Projects</h2>
+            <div class="portfolioGrid">
+                <div class="card">
+                    <div class="cardHeader">
+                        <p>Encriptador</p>
+                    </div>
+                    <div class="cardImg">
+                        <img src="assets/Imagenes/Encriptador.png" alt="">
+                    </div>
+                    <div class="cardLinks">
+                        <a href=""></a>
+                        <img src="" alt="github">
+                    </div>
+                </div>
+            </div>
             <a class="btn-projects" href="https://kevin-alexis.github.io/Maquetado-de-un-sitio-web-de-compras/">
                 Maquetado Sitio Web
             </a>
@@ -67,12 +83,23 @@
                 Barbershop
             </a>
         </section>
+
+        <section class="skills">
+            <h2 id="header-skills">Skills</h2>
+        </section>
         
+        <section class="contact">
+            <h2 id="header-contact">Contact</h2>
+        </section>
     </main>
     
     
     <footer>
-
+        <p>Follow me on 
+            <a href="https://www.linkedin.com/in/kevin-alexis-bello-maldonado/"><img src="assets/icons/linkedin.svg" alt="linkedin"></a> 
+            and 
+            <a href="https://github.com/kevin-alexis"><img src="assets/icons/github.svg" alt="github"></a> 
+        </p>
     </footer>
 
 
