@@ -68,7 +68,6 @@ main{
 .profile-photo{
     width: 200px;
     border-radius: 50%;
-    filter: drop-shadow(0 0.5px 10px #ffffff4b);
 }
 
 .aBitOfMe h2{
@@ -169,13 +168,77 @@ h2{
     /* transform: scale(1.2); */
 }
 
+.img-skills img{
+    width: 60px;
+}
+
 footer{
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: center;
     text-align: center;
+    background-color: #314158;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .github,
 .linkedin{
     width: 15px;
+}
+
+.icon-license{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    bottom: 1px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input,
+.contact button{
+    color: white;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #314158;
+    border: 0;
+    margin: 10px 0;
+}
+
+.contact input::placeholder,
+.contact button::placeholder,
+.contact textarea::placeholder{
+    color: rgba(255, 255, 255, 0.377);
+}
+
+
+.contact textarea{
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #314158;
+    border: 0;
 }
 
 @media (max-width: 640px){
