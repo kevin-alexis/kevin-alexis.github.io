@@ -14,6 +14,7 @@ body {
 /* background: radial-gradient(#223046,#141d2b); */
 
 header{
+    position: relative;
     box-sizing: border-box;
     width: 100%;
     padding: 0 10px;
@@ -34,7 +35,9 @@ header{
     color: white;
 }
 
-.nav{
+/*nav-desktop*/
+
+.nav-desktop{
     display: flex;
     align-items: center;
     list-style: none;
@@ -42,7 +45,7 @@ header{
 }
 
 
-.nav-link {
+.nav-link{
     display: block;
     padding: 0.5rem 1rem;
     color: rgba(255, 255, 255, 0.377);
@@ -55,11 +58,79 @@ header{
     color: white;
 }
 
-.nav-link.active{
-    /* background-color: #0d6efd;
-    background-color: #2b5ca5; */
+.active{
     background-color: #FFFFFF60;
+    transition: 0.3s;
+}
+
+.active:hover{
+    background-color: #ffffff;
     color: rgb(54, 54, 54);
+}
+
+/*header phone*/
+.fa-bars{
+    display: none;
+    color: #FFFFFF60;
+    transition: 0.3s;
+    font-size: 30px;
+    margin: 16px 0;
+    padding: 8px 40px;
+}
+
+.fa-bars:hover{
+    color: #FFFFFF;
+}
+
+/*nav-mobile*/
+
+.nav-mobile{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#1F1F1F,#223046);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.inactive{
+    display: none;
+}
+
+.fa-x{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+
+}
+
+.list-mobile{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 80px 0 0 10px;
+}
+
+.nav-link-mobile{
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 20px 0 0 20px;
+    color: rgba(255, 255, 255, 0.377);
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.nav-link-mobile.active{
+    text-align: center;
 }
 
 main{
@@ -108,7 +179,7 @@ p{
 .card{
     width: 100%;
     border-radius: 10px;
-    transition: 1s;
+    transition: 0.3s;
     z-index: 0;
 }
 
@@ -170,7 +241,7 @@ p{
     padding: 8px;
     background-color: #314158;
     border-radius: 8px;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .btn-projects:hover{
@@ -187,6 +258,12 @@ p{
 
 .img-skills img{
     width: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.img-skills img:hover{
+    transform: scale(1.3);
 }
 
 .github,
@@ -228,6 +305,10 @@ p{
 .contact button::placeholder,
 .contact textarea::placeholder{
     color: rgba(255, 255, 255, 0.377);
+}
+
+.contact button{
+    cursor: pointer;
 }
 
 
@@ -310,15 +391,32 @@ footer{
     color: rgba(255, 255, 255, 0.377);
 }
 
-@media (max-width: 640px){
+@media (max-width: 1080px){
+    
+    header{
+        display: block;
+    }
+
     .home-item,
-    .nav{
+    .nav-desktop{
         display: none;
     }
 
+    .fa-bars{
+        display: block;
+    }
+
+    .portfolioGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 670px){
     .portfolioGrid{
         display: flex;
         flex-direction: column;
     }
+
+
 
 }
