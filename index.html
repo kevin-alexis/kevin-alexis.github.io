@@ -15,10 +15,10 @@
     
     <header class="header">
         <a href="/" class="home-link">
-            <p class="home-item">Home</p>
+            <p class="home-item">Home</p>  
         </a>
-
-        <ul class="nav">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="nav-desktop">
             <li class="nav-item">
                 <a href="#header-about-me" class="nav-link">About Me</a>
             </li>
@@ -35,6 +35,30 @@
                 <a href="#" class="nav-link active">Download CV</a>
             </li>
         </ul>
+        <div class="nav-mobile inactive">
+            <div>
+                <div>
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <ul class="list-mobile">
+                    <li class="nav-item">
+                        <a href="#header-about-me" class="nav-link-mobile">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#header-about-me" class="nav-link-mobile">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#header-about-me" class="nav-link-mobile">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#header-about-me" class="nav-link-mobile">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-download">
+                <a href="#" class="nav-link-mobile active">Download CV</a>
+            </div>
+        </div>
     </header>
     
     <main class="content">
@@ -251,5 +275,7 @@
         <!-- <a href="https://icons8.com" class="icon-license">Icon License</a> -->
     </footer>
 
+
+    <script src="./script.js"></script>
 </body>
 </html>
