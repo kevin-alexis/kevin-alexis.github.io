@@ -174,20 +174,6 @@ p{
     /* transform: scale(1.2); */
 }
 
-.img-skills img{
-    width: 60px;
-}
-
-
-footer{
-    position: relative;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    text-align: center;
-    background-color: #314158;
-}
-
 .skills{
     display: flex;
     flex-direction: column;
@@ -195,18 +181,17 @@ footer{
     margin-top: 40px;
 }
 
+.img-skills img{
+    width: 60px;
+}
+
 .github,
 .linkedin{
+    color: black;
     width: 15px;
 }
 
-.icon-license{
-    position: absolute;
-    font-size: 10px;
-    color: white;
-    text-decoration: none;
-    bottom: 1px;
-}
+/*Section Contact*/
 
 .contact{
     display: flex;
@@ -232,6 +217,7 @@ footer{
     background-color: #314158;
     border: 0;
     margin: 10px 0;
+    outline: none;
 }
 
 .contact input::placeholder,
@@ -248,6 +234,76 @@ footer{
     border-radius: 10px;
     background-color: #314158;
     border: 0;
+    outline: none;
+}
+
+
+/*footer*/
+
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #314158;
+}
+
+.top-footer{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 1px;
+    margin: 20px;
+}
+
+.social-networks{
+    display: flex;
+}
+
+.fa-github,
+.fa-linkedin{
+    color: rgba(255, 255, 255, 0.377);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover{
+    filter: brightness(0.05);
+}
+
+.copyright{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.377);
+    text-decoration: none;
+    bottom: 1px;
+}
+
+.legal-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.legal-information a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    bottom: 1px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.377);
+}
+
+.legal-information p{
+    color: rgba(255, 255, 255, 0.377);
 }
 
 @media (max-width: 640px){
