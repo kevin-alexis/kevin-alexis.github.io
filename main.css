@@ -256,6 +256,12 @@ p{
     margin-top: 40px;
 }
 
+.img-skills{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0;
+}
+
 .img-skills img{
     width: 60px;
     cursor: pointer;
