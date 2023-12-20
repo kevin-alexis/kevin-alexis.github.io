@@ -37,7 +37,8 @@ footer{
 }
 
 .fa-github:hover,
-.fa-linkedin:hover{
+.fa-linkedin:hover,
+.fa-whatsapp:hover{
     filter: brightness(0.05);
 }
 

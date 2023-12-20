@@ -1,12 +1,16 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 import {Input, Textarea, Button} from "@nextui-org/react";
 import {MailIcon} from '../MailIcon/MailIcon';
+import Modal200 from '../Modal200/Modal200.jsx';
+import Modal400 from '../Modal400/Modal400.jsx';
 
 const Contact = () => {
 
     const form = useRef();
+    const [showSuccessModal, setShowSuccessModal] = useState(false);
+    const [showErrorModal, setShowErrorModal] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -14,9 +18,12 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             form.current.reset();
+            setShowSuccessModal(true);
         }, (error) => {
             console.log(error.text);
+            setShowErrorModal(true);
         });
+        
 };
 
 
@@ -66,6 +73,8 @@ const Contact = () => {
                     Send
                 </Button>  
             </form>
+            {showSuccessModal && <Modal200 setShowSuccessModal={setShowSuccessModal}/>}
+            {showErrorModal && <Modal400 setShowErrorModal={setShowErrorModal}/>}
         </section>
     );
 }
