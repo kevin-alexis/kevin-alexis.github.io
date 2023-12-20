@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #1a1a2e;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  /* background: linear-gradient(#1F1F1F,#223046); */
+  /* background: linear-gradient(135deg, #000000, #4a00e0); */
+  /* background: linear-gradient(135deg, #000000, #1E1F3A, #6B1E6E); */
+  background-size: cover;
+  font-family: 'Nunito', sans-serif; 
+  background: linear-gradient(135deg, #1a1a2e, #262640, #333366);
+}
+
+
+/* body{
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 50%, #1a1a2e 20%, transparent 50%),
+    radial-gradient(circle at 80% 20%, #262640 30%, transparent 60%),
+    radial-gradient(circle at 50% 80%, #333366 50%, transparent 70%);
+  background-size: 400% 400%;
+  animation: blurredGradient 200s ease infinite;
+}
+
+@keyframes blurredGradient {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+} */
+
+/* body {
+  background: 
+    radial-gradient(circle at 20% 80%, #000000 10%, transparent 70%),
+    radial-gradient(circle at 10% 10%, rgba(0, 0, 255, 0.05) 10%, transparent 30%),
+    radial-gradient(circle at 10% 10%, rgba(120, 20, 252, 0.05) 10%, transparent 30%);
+  background-size: 400% 400%;
+  animation: blurredGradient 200s ease infinite;
+}
+
+@keyframes blurredGradient {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+} */
+
+
+
+h1{
+  color: white;
+  font-size: 2rem;
+}
+
+h2{
+  color: white;
+  font-size: 1.5rem;
+}
+
+p{   
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1080px){
+    
+  header{
+      display: block;
+  }
+
+  .home-item,
+  .nav-desktop{
+      display: none;
+  }
+
+  .fa-bars{
+      display: block !important;
+  }
+
+  .portfolioGrid{
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 670px){
+  .portfolioGrid{
+      display: flex;
+      flex-direction: column;
+  }
+}
