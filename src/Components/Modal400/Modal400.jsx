@@ -28,7 +28,7 @@ export default function Modal200({setShowErrorModal}) {
       <ModalContent>
         {(onClose) => (
           <>
-            <ModalHeader className="flex flex-col gap-1">El mensaje no pudo ser enviado</ModalHeader>
+            <ModalHeader className="flex flex-col gap-1 w-fit">El mensaje no pudo ser enviado</ModalHeader>
             <ModalBody>
               <p className="text-black text-pretty">
               Lo sentimos, ha habido un problema al enviar tu mensaje. Por favor, inténtalo nuevamente más tarde.

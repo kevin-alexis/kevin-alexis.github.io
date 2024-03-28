@@ -33,7 +33,7 @@ export default function Modal200({setShowSuccessModal}) {
         {(onClose) => (
           <>
           
-            <ModalHeader className="flex flex-col gap-1">El mensaje fue enviado</ModalHeader>
+            <ModalHeader className="flex flex-col gap-1 w-fit">El mensaje fue enviado</ModalHeader>
             <ModalBody>
               <p className="text-black text-pretty">
                 Gracias por enviar tu mensaje. Nos pondremos en contacto contigo lo antes posible.

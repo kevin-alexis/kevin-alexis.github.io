@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Projects.css'
 import Card from '../Card/Card';
 import imageEncriptador from '../../assets/Imagenes/Encriptador.png';
@@ -9,11 +9,9 @@ import imageAsincronismoLanding from '../../assets/Imagenes/Asincronismo-Landing
 import imageTarjetaPresentacion from '../../assets/Imagenes/Tarjeta-de-presentacion.png';
 import imageMaquetadoWeb from '../../assets/Imagenes/Maquetado-de-sitio-web.png';
 import imageMixMap from '../../assets/Imagenes/mix-map-clon.jpg';
-import ModalProject from '../ModalProject/ModalProject'
 
 const Projects = () => {
 
-    const [showModalProject, setShowModalProject] = useState(false);
 
 
     const projects = [
@@ -84,7 +82,6 @@ const Projects = () => {
 
                         })}
                     </div>
-                    {showModalProject && <ModalProject setShowModalProject={setShowModalProject}/>}
         </section>
     );
 }
