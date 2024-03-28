@@ -1,9 +1,9 @@
-
 .skills{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    height: 100%;
 }
 
 .img-skills{
@@ -32,4 +32,74 @@
 .linkedin{
     color: black;
     width: 15px;
+}
+
+.tab-content {
+    margin: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fig-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(211, 211, 211, 0.052);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Bootstrap,
+.Webpack,
+.Git,
+.Linux{
+    width: 65px !important;
+}
+
+.cSharp{
+    width: 60px !important;
+}
+
+.HTML,
+.CSS,
+.JavaScript{
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+
+.Java,
+.cSharp,
+.cPlusPlus{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.Java,
+.ReactJS,
+.NodeJS,
+.MySQL,
+.Firebase,
+.Tailwind,
+.GitHub,
+.NextUI,
+.Laravel,
+.AdobeIlustrator{
+    width: 55px !important;
+}
+
+.cPlusPlus,
+.VSCode{
+    width: 50px !important;
+}
+
+.MongoDB{
+    width: 45px !important;
+}
+
+.Figma
+{
+    width: 35px !important;
 }

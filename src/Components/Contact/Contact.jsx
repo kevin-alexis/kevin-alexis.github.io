@@ -45,7 +45,7 @@ const Contact = () => {
                 />
                 <Input
                 isRequired
-                key='outside'
+                key='outside1'
                 type="email"
                 label="Email"
                 placeholder='your@example.com'
@@ -59,7 +59,7 @@ const Contact = () => {
                 name="message"
                 cols="40" rows="10" 
                 isRequired
-                key='outside'
+                key='outside2'
                 type="email"
                 label="Message"
                 labelPlacement='outside'

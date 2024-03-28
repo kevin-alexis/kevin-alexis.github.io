@@ -8,7 +8,7 @@ import imageBarberShop from '../../assets/Imagenes/Barbershop.png';
 import imageAsincronismoLanding from '../../assets/Imagenes/Asincronismo-Landing.png';
 import imageTarjetaPresentacion from '../../assets/Imagenes/Tarjeta-de-presentacion.png';
 import imageMaquetadoWeb from '../../assets/Imagenes/Maquetado-de-sitio-web.png';
-import imageMixMap from '../../assets/Imagenes/mix-map-clon.jpeg';
+import imageMixMap from '../../assets/Imagenes/mix-map-clon.jpg';
 
 const Projects = () => {
 

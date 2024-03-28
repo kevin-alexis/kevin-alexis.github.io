@@ -16,9 +16,9 @@ const Footer = () => {
                 </div>
                 <div class="bottom-footer">
                     <div class="legal-information">
-                        <a href="">Información legal</a>
+                        <a href="">Legal information</a>
                         <p>|</p>
-                        <a href="">Política de privacidad</a>
+                        <a href="">Privacy Policy</a>
                     </div>
                     <p class="copyright">Copyright © 2024</p>
                 </div>

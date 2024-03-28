@@ -4,6 +4,7 @@ import './Navbar.css'
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [activeMenuItem, setActiveMenuItem] = useState(null);
+  const curriculumLink = "../../../public/documents/Currículum - Kevin Alexis Bello Maldonado.pdf"
 
   const menuItems = [
     "About Me",
@@ -93,7 +94,7 @@ export default function App() {
         <NavbarItem className="hidden lg:flex">
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="../../../public/documents/Currículum Vitae - Kevin Alexis Bello Maldonado.pdf" download="Currículum Vitae - Kevin Alexis Bello Maldonado.pdf" variant="flat">
+          <Button as={Link} color="primary" href={curriculumLink} download="Currículum Vitae - Kevin Alexis Bello Maldonado.pdf" variant="flat">
             Download CV
           </Button>
         </NavbarItem>

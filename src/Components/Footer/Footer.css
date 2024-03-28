@@ -9,6 +9,8 @@ footer{
     text-align: center;
     /* background-color: #314158; */
     background-color: #00000060;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .top-footer{
@@ -53,7 +55,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .legal-information a{
