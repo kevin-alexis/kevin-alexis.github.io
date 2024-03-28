@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 import './Navbar.css'
 export default function App() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeMenuItem, setActiveMenuItem] = useState(null);
   const curriculumLink = "../../../public/documents/Currículum - Kevin Alexis Bello Maldonado.pdf"
 
@@ -13,6 +13,7 @@ export default function App() {
     "Contact",
     // "Download CV",
   ];
+  
 
   const smoothScroll = (target, index) => {
     const element = document.querySelector(target);
@@ -22,6 +23,11 @@ export default function App() {
         top: element.offsetTop - 80,
       });
     }
+
+    // Lo agregue para que puede hacer el scroll sin problemas
+    setTimeout(()=>{
+      setIsMenuOpen(false);
+    }, 800)
   };
 
   useEffect(() => {
@@ -48,8 +54,7 @@ export default function App() {
   }, [menuItems]);
 
   return (
-    // <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll classNames={{
-    <Navbar onMenuOpenChange={setIsMenuOpen} classNames={{
+    <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} classNames={{
       item: [
         "flex",
         "relative",
@@ -101,17 +106,13 @@ export default function App() {
       </NavbarContent>
       
       
-      <NavbarMenu>
+      <NavbarMenu className="bg-black/70" >
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item}-${index}`} >
             <Link
-              color={
-                "foreground"
-              }
-              className="w-full"
+              className="w-full text-white text-xl mt-2 font-light text-center"
               onClick={() => {
                 smoothScroll(`#header-${item.toLowerCase().replace(/\s/g, '-')}`, index);
-                setIsMenuOpen(false);
               }}
               size="lg"
             >
